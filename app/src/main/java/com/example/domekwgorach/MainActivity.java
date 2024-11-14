@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         like = findViewById(R.id.like);
         save = findViewById(R.id.save);
         delete = findViewById(R.id.delete);
